@@ -14,7 +14,7 @@ namespace TennisGame
 
         public string Score()
         {
-            return "";
+            throw new NotImplementedException();
         }
 
         public void FirstPlayerScore()
