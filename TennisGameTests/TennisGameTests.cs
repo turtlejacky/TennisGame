@@ -1,15 +1,17 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TennisGameTests
+namespace TennisGame.Tests
 {
     [TestClass()]
     public class TennisGameTests
     {
+
         [TestMethod()]
-        public void Fifteen_Love()
+        public void TennisGameTest()
         {
-           
+            var tennisGame = new TennisGame("", "");
         }
 
+        
     }
 }
